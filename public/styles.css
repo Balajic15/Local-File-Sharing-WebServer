@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    padding: 2rem;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    padding: 3rem;
+}
+
+h1 {
+    color: #667eea;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+h2 {
+    color: #555;
+    font-size: 1.3rem;
+    margin: 2rem 0 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #667eea;
+}
+
+.file-list {
+    list-style: none;
+}
+
+.file-list li {
+    background: #f8f9fa;
+    margin: 0.5rem 0;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+.file-list li:hover {
+    background: #e9ecef;
+    transform: translateX(5px);
+}
+
+.file-list a {
+    display: block;
+    padding: 1rem 1.5rem;
+    color: #495057;
+    text-decoration: none;
+    font-weight: 500;
+    position: relative;
+}
+
+.file-list a::before {
+    content: "📄";
+    margin-right: 0.75rem;
+    font-size: 1.2rem;
+}
+
+.file-list a::after {
+    content: "⬇";
+    position: absolute;
+    right: 1.5rem;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.file-list li:hover a::after {
+    opacity: 1;
+}
+
+.empty-state {
+    text-align: center;
+    padding: 3rem;
+    color: #6c757d;
+    font-style: italic;
+}
+
+.server-info {
+    background: #e7f3ff;
+    padding: 1rem;
+    border-radius: 6px;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: #0066cc;
+    font-size: 0.9rem;
+}
