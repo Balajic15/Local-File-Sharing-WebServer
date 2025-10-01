@@ -6,18 +6,18 @@ No cloud required — perfect for quick file sharing on a local network.
 
 ---
 
-## ✨ Features
-- 📂 Lists all files in a specified directory  
-- 📥 Download any file directly via browser  
-- 🌐 Works over your local network (Wi-Fi / LAN)  
-- 🎨 Clean responsive frontend (HTML + CSS + JS)  
-- ⚡ Fast setup, no external services required  
+## Features
+- Lists all files in a specified directory  
+- Download any file directly via browser  
+- Works over your local network (Wi-Fi / LAN)  
+- Clean responsive frontend (HTML + CSS + JS)  
+- Fast setup, no external services required  
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
-### 1. Clone the repository
+##Commands
 ```bash
 git clone https://github.com/Balajic15/Local-File-Sharing-WebServer.git
 cd Local-File-Sharing-WebServer
@@ -33,4 +33,5 @@ node server.js
 
 5. Open in your browser
 http://localhost:3000
+
 
