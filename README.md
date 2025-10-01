@@ -21,20 +21,16 @@ No cloud required — perfect for quick file sharing on a local network.
 ```bash
 git clone https://github.com/Balajic15/Local-File-Sharing-WebServer.git
 cd Local-File-Sharing-WebServer
+
 2. Install dependencies
-bash
-Copy code
 npm install
+
 3. Configure folder to share
 Edit server.js (or whatever file contains the Express code) and set your shared folder path.
 
 4. Start the server
-bash
-Copy code
 node server.js
-5. Open in your browser
-Visit:
 
-arduino
-Copy code
+5. Open in your browser
 http://localhost:3000
+
