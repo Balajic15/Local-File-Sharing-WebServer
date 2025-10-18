@@ -14,6 +14,9 @@ No cloud required — perfect for quick file sharing on a local network.
 - Fast setup, no external services required  
 
 ---
+<img width="922" height="908" alt="{F2600987-66BD-4678-A619-20EB4E3DF970}" src="https://github.com/user-attachments/assets/f6c4a8cd-6c72-400e-a554-57fdeac2bd10" />
+<img width="917" height="990" alt="{8369DDE3-F3B8-4D8C-953F-C1FC5F7F2195}" src="https://github.com/user-attachments/assets/bef30f34-e331-4e08-9e99-acc3f8b8d683" />
+
 
 ## Getting Started
 
@@ -33,5 +36,6 @@ node server.js
 
 5. Open in your browser
 http://localhost:3000
+
 
 
